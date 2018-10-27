@@ -10,6 +10,9 @@ public class App {
 	 * use PostgreSQL to store data
 	 * optionally:
 	 * data modification methods should be available only to authorized users
+	 *
+	 * NBA SQUADS
+	 *
 	 */
 
 

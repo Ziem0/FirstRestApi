@@ -10,8 +10,8 @@
   <packaging>war</packaging>
 
   <name>myFirstRestApi Maven Webapp</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+   <!--FIXME change it to the project's website -->
+  <url>http://localhost:8080</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -108,6 +108,12 @@
       <version>5.2.10.Final</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -159,6 +165,23 @@
         <artifactId>jetty-maven-plugin</artifactId>
         <version>9.4.7.v20170914</version>
       </plugin>
+      <!--<plugin>-->
+      <!--<groupId>org.flywaydb</groupId>-->
+      <!--<artifactId>flyway-maven-plugin</artifactId>-->
+      <!--<version>4.2.0</version>-->
+      <!--<configuration>-->
+      <!--<url>jdbc:postgresql://localhost:5432/myrestapi</url>-->
+      <!--<user>ziemo</user>-->
+      <!--<password>1209</password>-->
+      <!--</configuration>-->
+      <!--<dependencies>-->
+      <!--<dependency>-->
+      <!--<groupId>org.postgresql</groupId>-->
+      <!--<artifactId>postgresql</artifactId>-->
+      <!--<version>42.1.4</version>-->
+      <!--</dependency>-->
+      <!--</dependencies>-->
+      <!--</plugin>-->
     </plugins>
   </build>
 </project>
